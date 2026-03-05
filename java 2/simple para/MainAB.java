@@ -1,10 +1,7 @@
 class MainAB {
 	public static void main(String args []){
 	
-		/*A obj=new A();
-		 obj.getz();*/
-		
-		B obj1=new B();
+	   B obj1=new B(20,10);
 		 obj1.getS();
 		 obj1.getz();
 	}

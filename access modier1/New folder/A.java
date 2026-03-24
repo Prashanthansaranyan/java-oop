@@ -1,10 +1,10 @@
 package packA;
 public class A{
-	int x;
-	public A(int x){
+	 protected int x;
+	protected A(int x){
 	  this.x=x;
 	}
-    public void getx(){
+    protected void getx(){
 	  System.out.println("Ax : "+this.x);
    }
 }

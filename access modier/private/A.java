@@ -3,7 +3,7 @@ class A{
 	 A(int x){
 	this.x=x;
 	}
-    public void getx(){
+ private void getx(){
 	System.out.println("Ax : "+this.x);
    }
 }

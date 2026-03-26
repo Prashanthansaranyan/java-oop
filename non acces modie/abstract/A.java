@@ -1,9 +1,30 @@
-class A{
+abstract class A{
 	int x;
-	 A(){
+	A(){
 		this.x=10;
-	
 	}
-	abstract void getx();
+	void getx(){
+		System.out.println("Ax : "+this.x);
+	}
+	abstract void getz();
 	
-} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

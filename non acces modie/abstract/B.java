@@ -1,13 +1,15 @@
-abstract class B extends A{
+class B extends A{
 	int y;
-	int x;
-	 B(){
+	int z;
+	B(){
 		this.y=20;
-		this.x=10;
-	
+		this.z=30;
 	}
-	void gety();
+	void gety(){
+		System.out.println("By : "+this.y);
+	}
+	void getz(){
+		System.out.println("Bz : "+this.z);
+	}
 	
-	void getx();
-	
-} 
+}
